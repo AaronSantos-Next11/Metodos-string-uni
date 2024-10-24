@@ -122,7 +122,7 @@ console.log(
 * Pero en este caso debemos hacer uso del modificador "/g" para poder obtener las veces que a se repite:
 */
 console.log(
-    challenge.match(/a/g) // [ 'a', index: 4, input: '30 Days of JavaScript', groups: undefined ]
+    challenge.match('a') // [ 'a', index: 4, input: '30 Days of JavaScript', groups: undefined ]
 );
 
     console.log(
